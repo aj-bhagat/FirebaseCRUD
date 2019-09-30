@@ -1,2 +1,2 @@
 # FirebaseCRUD
-Angular CRUD using Firebase.
+Angular7 CRUD using Firebase.
