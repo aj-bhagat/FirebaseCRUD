@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment';
 import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeComponent } from './employees/employee/employee.component';
 import {EmployeeService} from './shared/employee.service';
+import { FormsModule } from "@angular/forms";
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {EmployeeService} from './shared/employee.service';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
+    FormsModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
